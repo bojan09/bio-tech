@@ -10,7 +10,7 @@ const Home = () => {
         <h1 className="md:text-5xl xs:text-3xl my-6 font-rufina text-textColor">
           Sustainable solutions
         </h1>
-        <p className="md:text-xl xs:text-lg font-oxygen mb-[3rem] text-textColor text-clip">
+        <p className="md:text-xl xs:text-lg font-oxygen mb-[3rem] text-textColor ">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi esse re
           veniam delectus aperiam repellendus dolor sit amet, consectetur totam!
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore,
@@ -22,7 +22,7 @@ const Home = () => {
           fugit doloribus natus at incidunt?
         </p>
         <a
-          className="bg-primaryButton text-whiteColor font-semibold px-5 py-3 font-oxygen rounded"
+          className="bg-primaryButton text-whiteColor font-semibold px-5 py-3 font-oxygen rounded hover:bg-primaryBackground"
           href="#contact"
         >
           Contact us
