@@ -10,7 +10,7 @@ const Navbar = () => {
       <div className="md:mr-[7rem] logo bg-gradient-to-r from-primaryBackground to-primaryButton">
         <a
           href="#"
-          className="font-rufina font-semibold text-gray-50 md:text-[20px] xs:[16px]"
+          className="font-rufina font-semibold text-gray-50 xs:text-xl md:text-[20px] xs:[16px]"
         >
           BioTech
         </a>

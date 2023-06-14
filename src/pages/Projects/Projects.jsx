@@ -94,11 +94,11 @@ const Projects = () => {
           responsive={responsive}
         >
           {ourProjects.map((project) => (
-            <div key={project.length} className="w-full p-4 pl-[2.3rem]">
+            <div key={project.length} className="w-full p-4 md:pl-[2.3rem]">
               <img
                 src={project.image}
                 alt="projectImages"
-                className="w-[400px] h-[400px] rounded-xl"
+                className="w-[400px] h-[400px] rounded-xl object-center object-fill"
               />
               <h1 className="text-center my-5 font-rufina font-bold text-2xl text-textColor">
                 {project.title}
