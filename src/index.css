@@ -92,3 +92,9 @@ select {
     scroll-behavior: auto !important;
   }
 }
+
+/* logo */
+.logo {
+  padding: 1rem 1rem 1.5rem 1rem;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 50% 100%, 0% 70%);
+}
