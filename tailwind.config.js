@@ -14,6 +14,9 @@ module.exports = {
         secondaryButton: "#edf7f3",
         primaryBackground: "#4ca985",
       },
+      screens: {
+        xs: "350px",
+      },
     },
   },
   plugins: [],

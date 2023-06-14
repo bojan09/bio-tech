@@ -1,11 +1,13 @@
 import about_1 from "./about.png";
-import gallery_1 from "./gallery-1.png";
-import gallery_2 from "./gallery-2.png";
-import gallery_3 from "./gallery-3.png";
-import gallery_4 from "./gallery-4.png";
-import gallery_5 from "./gallery-5.png";
-import gallery_6 from "./gallery-6.png";
+import gallery_1 from "./gallery-1.jpg";
+import gallery_2 from "./gallery-2.jpg";
+import gallery_3 from "./gallery-3.jpg";
+import gallery_4 from "./gallery-4.jpg";
+import gallery_5 from "./gallery-5.jpg";
+import gallery_6 from "./gallery-6.jpg";
 import home from "./home.png";
+import close from "./close-sharp.svg";
+import menu from "./menu-sharp.svg";
 
 export {
   about_1,
@@ -16,4 +18,6 @@ export {
   gallery_5,
   gallery_6,
   home,
+  close,
+  menu,
 };
