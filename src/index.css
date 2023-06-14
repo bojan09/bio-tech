@@ -102,3 +102,15 @@ select {
   padding: 1rem 1rem 1.5rem 1rem;
   clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 50% 100%, 0% 70%);
 }
+
+.polygon {
+  /* polygon shape */
+  clip-path: polygon(50% 0, 100% 30%, 100% 70%, 50% 100%, 0 70%, 0 30%);
+  /* minimal animation */
+  transform: scale(1);
+  transition: all 0.4s;
+}
+
+.polygon:hover {
+  transform: scale(1.05);
+}
