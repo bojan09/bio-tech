@@ -16,36 +16,42 @@ import {
 const Projects = () => {
   const ourProjects = [
     {
+      id: 1,
       image: gallery_1,
       title: "Cherish",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum illum vitae fuga nulla maiores suscipit rerum, autem tenetur sed a laboriosam nostrum fugiat quam laborum? Repellat officia pariatur illo!",
     },
     {
+      id: 2,
       image: gallery_2,
       title: "Rebuild",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum illum vitae fuga nulla maiores suscipit rerum, autem tenetur sed a laboriosam nostrum fugiat quam laborum? Repellat officia pariatur illo!",
     },
     {
+      id: 3,
       image: gallery_3,
       title: "Observe",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum illum vitae fuga nulla maiores suscipit rerum, autem tenetur sed a laboriosam nostrum fugiat quam laborum? Repellat officia pariatur illo!",
     },
     {
+      id: 4,
       image: gallery_4,
       title: "Grow",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum illum vitae fuga nulla maiores suscipit rerum, autem tenetur sed a laboriosam nostrum fugiat quam laborum? Repellat officia pariatur illo!",
     },
     {
+      id: 5,
       image: gallery_5,
       title: "Research",
       description:
         "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores dolorum illum vitae fuga nulla maiores suscipit rerum, autem tenetur sed a laboriosam nostrum fugiat quam laborum? Repellat officia pariatur illo!",
     },
     {
+      id: 6,
       image: gallery_6,
       title: "Test",
       description:
@@ -94,7 +100,7 @@ const Projects = () => {
           responsive={responsive}
         >
           {ourProjects.map((project) => (
-            <div key={project.length} className="w-full p-4 md:pl-[2.3rem]">
+            <div key={project.id} className="w-full p-4 md:pl-[2.3rem]">
               <img
                 src={project.image}
                 alt="projectImages"

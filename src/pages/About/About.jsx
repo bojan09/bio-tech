@@ -5,7 +5,7 @@ import { about } from "../../assets";
 
 const About = () => {
   return (
-    <div id="about" className="my-[8rem]">
+    <div id="about" className="my-[4rem]">
       <h1 className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor mb-10">
         Who we are
       </h1>
