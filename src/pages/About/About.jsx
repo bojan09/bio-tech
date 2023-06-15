@@ -17,7 +17,7 @@ const About = () => {
           <img src={about} alt="about_img" />
         </div>
         {/* Right - Container */}
-        <div className="md:w-[45%] bg-whiteColor md:px-4  md:py-6">
+        <div className="md:w-[45%] bg-whiteColor md:px-4  py-6">
           <h1 className="text-center md:text-5xl xs:text-3xl my-7 font-rufina  text-textColor">
             We build with community in mind
           </h1>
