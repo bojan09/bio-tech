@@ -110,7 +110,8 @@ const Contact = () => {
           type="submit"
           className="bg-primaryButton mt-4 px-8 py-2 rounded font-oxygen"
         >
-          {loading ? "Send" : "Sending"}
+          {/* {loading ? "Send" : "Sending"} */}
+          Send
         </button>
       </form>
     </div>
