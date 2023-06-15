@@ -26,31 +26,46 @@ const Features = () => {
         className="grid md:flex flex-wrap justify-center xs:gap-10 md:gap-2 md:w-[40%]"
         data-aos="fade-up"
       >
-        <div className="polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton">
+        <div
+          className="polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton"
+          data-aos="fade-up-right"
+        >
           <p className="text-whiteColor font-oxygen text-lg p-2 text-center cursor-pointer">
             Freshwater and sediment sampling and analysis
           </p>
         </div>
 
-        <div className="polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton">
+        <div
+          className="polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton"
+          data-aos="fade-up-left"
+        >
           <p className="text-whiteColor font-oxygen text-lg p-2 text-center cursor-pointer">
             eDNA sampling and analysis
           </p>
         </div>
 
-        <div className="polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton">
+        <div
+          className="polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton"
+          data-aos="fade-up-right"
+        >
           <p className="text-whiteColor font-oxygen text-lg p-2 text-center cursor-pointer">
             Traditional knowledge interviews and collation
           </p>
         </div>
 
-        <div className="md:mt-[-4rem] polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton">
+        <div
+          className="md:mt-[-4rem] polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton"
+          data-aos="fade-up-right"
+        >
           <p className="text-whiteColor font-oxygen text-lg p-2 px-[1.55rem] text-center cursor-pointer">
             Document reviewer
           </p>
         </div>
 
-        <div className="md:mt-[-4rem] polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton">
+        <div
+          className="md:mt-[-4rem] polygon bg-primaryBackground w-[13rem] h-[14rem] flex items-center bg-gradient-to-tr from-primaryBackground to-primaryButton"
+          data-aos="fade-up-left"
+        >
           <p className="text-whiteColor font-oxygen text-lg p-2 text-center cursor-pointer">
             Community outreach and Consultation
           </p>
