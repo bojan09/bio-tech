@@ -1,5 +1,14 @@
 import React, { useState, useRef } from "react";
 
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
+
 // Email service
 import emailjs from "@emailjs/browser";
 
@@ -57,7 +66,10 @@ const Contact = () => {
 
   return (
     <div id="contact" className="py-2">
-      <h1 className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor mb-[6rem]">
+      <h1
+        className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor mb-[6rem]"
+        data-aos="fade-down-left"
+      >
         Get in touch
       </h1>
       {/* The Form */}
@@ -65,6 +77,7 @@ const Contact = () => {
         ref={formRef}
         onSubmit={handleSubmit}
         className="flex flex-col justify-center items-center gap-4"
+        data-aos="fade-up-left"
       >
         {/* Name */}
         <label className="font-rufina md:text-xl text-lg flex justify-center items-center">
@@ -109,6 +122,7 @@ const Contact = () => {
         <button
           type="submit"
           className="bg-primaryButton mt-4 px-8 py-2 rounded font-oxygen"
+          data-aos="fade-down"
         >
           {/* {loading ? "Send" : "Sending"} */}
           Send

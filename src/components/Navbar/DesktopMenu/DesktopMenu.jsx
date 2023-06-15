@@ -1,8 +1,17 @@
 import React from "react";
 
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
+
 const DesktopMenu = () => {
   return (
-    <div className="xs:hidden md:flex">
+    <div className="xs:hidden md:flex" data-aos="fade-left">
       <ul className="xs:hidden md:flex">
         <li className="mb-2">
           <a

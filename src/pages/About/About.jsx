@@ -3,21 +3,36 @@ import React from "react";
 // assets
 import { about } from "../../assets";
 
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
+
 const About = () => {
   return (
     <div id="about" className="my-[4rem]">
-      <h1 className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor mb-10">
+      <h1
+        className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor mb-10"
+        data-aos="fade-down"
+      >
         Who we are
       </h1>
 
       {/* Container */}
       <div className="md:flex justify-evenly">
         {/* Left - Container */}
-        <div className="">
+        <div data-aos="fade-right">
           <img src={about} alt="about_img" />
         </div>
         {/* Right - Container */}
-        <div className="md:w-[45%] bg-whiteColor md:px-4  py-6">
+        <div
+          className="md:w-[45%] bg-whiteColor md:px-4  py-6"
+          data-aos="fade-left"
+        >
           <h1 className="text-center md:text-5xl xs:text-3xl my-7 font-rufina  text-textColor">
             We build with community in mind
           </h1>

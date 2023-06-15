@@ -1,5 +1,14 @@
 import React from "react";
 
+// animate on screen library
+import AOS from "aos";
+import "aos/dist/aos.css";
+
+AOS.init({
+  duration: 1000,
+  offset: 100,
+});
+
 // react-carousel
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
@@ -80,12 +89,12 @@ const Projects = () => {
   };
 
   return (
-    <div id="projects" className="my-[5rem]">
+    <div id="projects" className="my-[5rem]" data-aos="fade-down">
       <h1 className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor">
         Our projects
       </h1>
 
-      <div>
+      <div data-aos="fade-left">
         <Carousel
           swipeable={true}
           draggable={false}
@@ -106,10 +115,16 @@ const Projects = () => {
                 alt="projectImages"
                 className="w-[400px] h-[400px] rounded-xl object-center object-fill"
               />
-              <h1 className="text-center my-5 font-rufina font-bold text-2xl text-textColor">
+              <h1
+                className="text-center my-5 font-rufina font-bold text-2xl text-textColor"
+                data-aos="fade-right"
+              >
                 {project.title}
               </h1>
-              <p className="text-center font-oxygen text-lg text-textColor pr-2">
+              <p
+                className="text-center font-oxygen text-lg text-textColor pr-2"
+                data-aos="fade-up"
+              >
                 {project.description}
               </p>
             </div>
