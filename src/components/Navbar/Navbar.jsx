@@ -7,7 +7,7 @@ import DesktopMenu from "./DesktopMenu/DesktopMenu";
 const Navbar = () => {
   return (
     <div className="md:p-6 w-full sticky top-0 left-0 xs:p-4 xs:justify-between md:justify-evenly flex items-center  bg-whiteColor z-10">
-      <div className="md:mr-[7rem] logo bg-gradient-to-r from-primaryBackground to-primaryButton">
+      <div className="md:mr-[25rem] logo bg-gradient-to-r from-primaryBackground to-primaryButton">
         <a
           href="#"
           className="font-rufina font-semibold text-gray-50 xs:text-xl md:text-[20px] xs:[16px]"
