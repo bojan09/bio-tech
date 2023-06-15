@@ -7,7 +7,7 @@ const MobileMenu = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   return (
-    <div className="md:hidden  flex">
+    <div className="md:hidden  flex  active:transition-all active:duration-100 active:scale-105">
       <img
         src={!toggle ? menu : close}
         className="w-[40px] h-[40xp] object-contain cursor-pointer grid justify-center items-center mr-[1rem]"
