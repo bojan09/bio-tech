@@ -57,7 +57,7 @@ const Contact = () => {
 
   return (
     <div id="contact" className="py-2">
-      <h1 className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor mb-10">
+      <h1 className="text-center md:text-5xl xs:text-3xl my-6 font-rufina text-textColor mb-[6rem]">
         Get in touch
       </h1>
       {/* The Form */}
@@ -67,7 +67,7 @@ const Contact = () => {
         className="flex flex-col justify-center items-center gap-4"
       >
         {/* Name */}
-        <label className="font-rufina text-lg flex justify-center items-center">
+        <label className="font-rufina md:text-xl text-lg flex justify-center items-center">
           Your Name
         </label>
         <input
@@ -76,11 +76,11 @@ const Contact = () => {
           value={form.name}
           onChange={handleChange}
           placeholder="What's your name?"
-          className="text-center py-3 px-6 bg-whiteColor rounded"
+          className="text-center md:py-5 md:px-[4rem] py-3 px-6 bg-whiteColor rounded border-[2px] border-gray-100"
         />
 
         {/* Email */}
-        <label className="font-rufina text-lg flex justify-center items-center">
+        <label className="font-rufina md:text-xl text-lg flex justify-center items-center">
           Your Email
         </label>
         <input
@@ -89,11 +89,11 @@ const Contact = () => {
           value={form.email}
           onChange={handleChange}
           placeholder="What's your email?"
-          className="text-center py-3 px-6 bg-whiteColor rounded"
+          className="text-center md:py-5 md:px-[4rem] py-3 px-6 bg-whiteColor rounded border-[2px] border-gray-100"
         />
 
         {/* Message */}
-        <label className="font-rufina text-lg flex justify-center items-center">
+        <label className="font-rufina md:text-xl text-lg flex justify-center items-center">
           Your message
         </label>
         <textarea
@@ -102,13 +102,13 @@ const Contact = () => {
           value={form.message}
           onChange={handleChange}
           placeholder="What do you want to say?"
-          className="text-center py-3 px-6 bg-whiteColor rounded"
+          className="text-center md:py-5 md:px-[5rem] py-3 px-6 bg-whiteColor rounded border-[2px] border-gray-100"
         />
 
         {/* The Button */}
         <button
           type="submit"
-          className="bg-primaryButton px-8 py-2 rounded font-oxygen"
+          className="bg-primaryButton mt-4 px-8 py-2 rounded font-oxygen"
         >
           {loading ? "Send" : "Sending"}
         </button>
