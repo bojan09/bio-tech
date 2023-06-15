@@ -85,7 +85,7 @@ const Projects = () => {
           draggable={false}
           infinite={true}
           keyBoardControl={true}
-          customTransition="all .8"
+          customTransition="all .8 ease-in-out"
           transitionDuration={500}
           removeArrowOnDeviceType={["tablet", "mobile"]}
           dotListClass="custom-dot-list-style"
@@ -94,7 +94,7 @@ const Projects = () => {
           responsive={responsive}
         >
           {ourProjects.map((project) => (
-            <div key={project.length} className="w-full p-4 md:pl-[2.3rem]">
+            <div key={project.length} className="w-full p-4  md:pl-[2.3rem]">
               <img
                 src={project.image}
                 alt="projectImages"
