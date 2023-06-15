@@ -1,4 +1,4 @@
-import about_1 from "./about.png";
+import about from "./about.png";
 import gallery_1 from "./gallery-1.jpg";
 import gallery_2 from "./gallery-2.jpg";
 import gallery_3 from "./gallery-3.jpg";
@@ -10,7 +10,7 @@ import close from "./close-sharp.svg";
 import menu from "./menu-sharp.svg";
 
 export {
-  about_1,
+  about,
   gallery_1,
   gallery_2,
   gallery_3,
