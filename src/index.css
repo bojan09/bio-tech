@@ -68,6 +68,7 @@ html:focus-within {
 
 html {
   scroll-behavior: smooth;
+  overflow-x:hidden;
 }
 
 /* Make images easier to work with */
